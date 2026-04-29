@@ -1,0 +1,10 @@
+project:
+  name: multi-model-routing-engine
+routing:
+  default_policy: balanced
+  fallback_enabled: true
+objectives:
+  optimize_for:
+    - latency
+    - cost
+    - quality
